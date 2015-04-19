@@ -1,7 +1,7 @@
 <div class="feature-area">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row excerpt">
-			<div class="col-md-12">
+			<div class="col-md-8 col-md-offset-2">
 				<h2>What we offer.</h2>
 				<p class="lead">Nam libero tempore, cuma soluta nobis est eligendi optio cumque nihil impedit quo minus id quo maxime placeat.</p>
 			</div> 
