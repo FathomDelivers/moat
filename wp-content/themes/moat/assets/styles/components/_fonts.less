@@ -1,0 +1,44 @@
+html {
+  font-size:62.5%;
+  font-family:'franklin-gothic-urw', sans-serif;
+  color:@brand-primary;
+  -moz-text-size-adjust:none;
+  -ms-text-size-adjust:none;
+  -webkit-text-size-adjust:none;
+  text-size-adjust:none;
+  text-rendering:optimizeLegibility;
+  font-kerning:normal;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+body {
+	-webkit-font-smoothing:antialiased;
+	background-color:transparent;
+}
+
+// h1, h2, h3, h4, h5, h6
+h1,h2,h3,h4,h5,h6 {
+  font-family:@sans-serif;
+}
+
+p, ul, ol, li, span, p {
+  font-family:@serif;
+}
+
+h1 {
+  .heading-font-size(4.5);
+  font-weight: 700;
+}
+h2 {
+  .heading-font-size(3.5);
+  font-weight: 700;
+}
+h3 {
+  .heading-font-size(2.5);
+  font-weight: 700;
+}
+
+p {
+  .font-size(1.9);
+  color:@font-secondary;
+}

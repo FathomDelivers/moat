@@ -9,5 +9,6 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 <?php echo do_shortcode( '[contact-form-7 id="4" title="home"]' ); ?>
+<?php get_template_part('templates/feature-area', 'page'); ?>
 
 </div>

@@ -3,10 +3,76 @@
 @sidebar-sm-columns:    4;
 
 // Colors
-@brand-primary:         #27ae60;
+@brand-primary:         #003865;
+@brand-secondary:       #abcae9;
+
+@font-primary:          #2a2a2a;
+@font-secondary:        #3c3c3c;
+
+// Fonts
+@sans-serif:"adobe-garamond-pro", sans-serif;
+@serif:"adriane",serif;
+
+.heading-font-size(@sizeValue) {
+  @remValue:@sizeValue;
+  @pxValue:(@sizeValue * 10);
+  font-size:~"@{pxValue}px"; 
+  font-size:~"@{remValue}rem";
+  line-height:@sizeValue * 10 * 1px;
+  margin-top:@sizeValue * 10 * 1px;
+  margin-bottom:@sizeValue * 6 * 1px;
+}
+
+.font-size(@sizeValue) {
+  @remValue:@sizeValue;
+  @pxValue:(@sizeValue * 10);
+  font-size:~"@{pxValue}px"; 
+  font-size:~"@{remValue}rem";
+  line-height:@sizeValue * 14.5 * 1px;
+  margin-top:@sizeValue * 3 * 1px;
+  margin-bottom:1.55556rem;
+}
+
+// Image Path
+@imgpath: "/moat/wp-content/themes/moat/assets/images";
 
 // Margins & Padding
+.mT4.0 {margin-top:4.0em;}
+.mT3.0 {margin-top:3.0em;}
+.mT2.0 {margin-top:2.0em;}
+.mT1.0 {margin-top:1.0em;}
+.mT0.5 {margin-top:0.5em;}
+.mB4.0 {margin-bottom:4.0em;}
+.mB3.0 {margin-bottom:3.0em;}
+.mB2.0 {margin-bottom:2.0em;}
+.mB1.0 {margin-bottom:1.0em;}
+.mB0.5 {margin-bottom:0.5em;}
+
+.pT4.0 {padding-top:4.0em;}
+.pT3.0 {padding-top:3.0em;}
+.pT2.0 {padding-top:2.0em;}
+.pT1.0 {padding-top:1.0em;}
+.pT0.5 {padding-top:0.5em;}
+.pB4.0 {padding-bottom:4.0em;}
+.pB3.0 {padding-bottom:3.0em;}
+.pB2.0 {padding-bottom:2.0em;}
+.pB1.0 {padding-bottom:1.0em;}
+.pB0.5 {padding-bottom:0.5em;}
+
+.p4.0 {padding:4.0em;}
+.p3.0 {padding:3.0em;}
+.p2.0 {padding:2.0em;}
+.p1.0 {padding:1.0em;}
+.p0.5 {padding:0.5em;}
 
 
 
-@imgpath: "/moat/wp-content/themes/moat/assets/images";
+// Reuseables
+.tdn {text-decoration:none}
+.center {text-align:center;}
+.ease {  
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease;
+  transition:all 0.2s ease;
+}
