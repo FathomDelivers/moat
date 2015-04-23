@@ -9,7 +9,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="#" /></a>
+      <?php if ( get_theme_mod( 'themeslug_logo' ) ) : ?>
+      <div class='site-logo'>
+          <a class="navbar-brand" href='<?= esc_url(home_url('/' )); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
+      </div>
+      <?php endif; ?>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
