@@ -6,7 +6,7 @@
 				<p class="lead"><?php echo get_post_meta($post->ID, 'main-banner-lead', true); ?></p>
 			</div>
 			<div class="col-md-4">
-				<?php echo do_shortcode( '[contact-form-7 id="4" title="main-banner"]' ); ?>
+				<?php get_template_part('templates/salesforce-form', 'page'); ?>
 			</div>
 		</div>
 	</div>

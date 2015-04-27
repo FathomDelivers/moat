@@ -6,24 +6,24 @@ function getParameterByName(name) {
 }
 
 jq1110( document ).ready(function() {
-        var temp_source = getParameterByName('source');
-        var importantSourceVar = 'Source_' + temp_source;
+        var temp_lead_source = getParameterByName('lead_source');
+        var importantSourceVar = 'Source_' + temp_lead_source;
 
         (function($){
             // your all jQuery code inside here
 
-            if (temp_source) {
-                $('#source').val('Source_' + temp_source);
+            if (temp_lead_source) {
+                $('#lead_source').val(temp_lead_source);
 
-                if (! $.cookie('sourcePersistent') ) {
-                    $.cookie('sourcePersistent', importantSourceVar, { expires: 10, path: '/' });    
+                if (! $.cookie('lead_sourcePersistent') ) {
+                    $.cookie('lead_sourcePersistent', importantSourceVar, { expires: 10, path: '/' });    
                 } 
 
             } else {
 
-                var importSourceCookie = $.cookie('sourcePersistent');
+                var importSourceCookie = $.cookie('lead_sourcePersistent');
                 if (importSourceCookie) {
-                    $('#source').val(importSourceCookie);
+                    $('#lead_source').val(importSourceCookie);
                 }
                 
             }
