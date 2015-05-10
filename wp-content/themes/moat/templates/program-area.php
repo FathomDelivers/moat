@@ -18,7 +18,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-4">
-			<h2>Bachelor of Science: Accouting</h2>
+			<h2>Bachelor of Science: Accounting</h2>
 		</div>
 	</div>
 	<div class="row">
