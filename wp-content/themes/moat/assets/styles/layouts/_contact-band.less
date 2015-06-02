@@ -1,18 +1,30 @@
 .contact-band {
 	background-color:#ECECEC;
 	.pT4.0;
-	min-height: 128px;
-	h4 {
-		.center;
-		color: @brand-primary;
+	min-height:128px;
+	h2 {
+		color:@font-secondary;
 	}
 }
 
-@media screen and (max-width: 990px) { 
+@media screen and (max-width:990px) { 
 	.contact-band { 
 		.pB2.0;
 		img {
-			display: none;
+			display:none;
+		}
+	}
+}
+
+@media screen and (max-width:768px) { 
+	.contact-band {
+		.pT0.0;
+		h2 {
+			.center;
+		}
+
+		p {
+			display:none
 		}
 	}
 }
