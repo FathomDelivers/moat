@@ -18,6 +18,8 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/smooth-scroll/smooth-scroll.min.js"></script>
     <!-- fontawesome-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">
     <!-- typekit -->
     <script src="//use.typekit.net/lwx8zjx.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
