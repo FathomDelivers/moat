@@ -1,5 +1,5 @@
 <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-persist="garlic" id="scroll-form">
-	<input type=hidden name="oid" value="00Do0000000au6j">
+	<input type=hidden name="oid" value="">
 	<input type=hidden name="retURL" value="http://www.universitymarketing.org/test">
 	<!--  ----------------------------------------------------------------------  -->
 	<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
