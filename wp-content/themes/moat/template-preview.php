@@ -10,5 +10,6 @@
   <?php get_template_part('templates/information-area', 'page'); ?>
   <?php get_template_part('templates/contact-band', 'page'); ?>
   <?php get_template_part('templates/feature-area', 'page'); ?>
+  <?php get_template_part('templates/testimonial', 'page'); ?>
   <?php get_template_part('templates/block', 'page'); ?>
 <?php endwhile; ?>
