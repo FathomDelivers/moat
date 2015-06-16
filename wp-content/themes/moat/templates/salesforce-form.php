@@ -8,12 +8,10 @@
 	<!--  <input type="hidden" name="debugEmail"                                  -->
 	<!--  value="ted@genuinevarsity.com">                                         -->
 	<!--  ----------------------------------------------------------------------  -->
-	<h2 class="center">See how soon you can start.</h2>
-	<label for="first_name">First Name</label>
-	<input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" />
-
-	<label for="last_name">Last Name</label>
-	<input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+	<h1>See how soon you can start.</h1>
+	<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+	<label for="first_name">Full Name</label>
+	<input class="form-control" id="full_name" maxlength="40" name="first_name" size="20" type="text" />
 
 	<label for="email">Email</label>
 	<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" />
