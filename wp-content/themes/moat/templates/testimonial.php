@@ -1,6 +1,6 @@
 <div class="container-fluid testimonial">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		<div class="col-md-6 col-md-offset-3">
+		<div class="col-md-4 col-md-offset-4">
 		  <div class="carousel-inner">
 		    <div class="item active">
 		        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial-1.jpg" alt="">
