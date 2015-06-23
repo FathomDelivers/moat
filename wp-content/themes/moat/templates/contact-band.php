@@ -8,11 +8,11 @@
 				<h2><?php echo get_post_meta($post->ID, 'contact-band-heading', true); ?></h2>
 				<p>Ullamcorper, duo et soleat vocent, definiebas interesset mea cuvix. Indoctum salutandi his ea, esse autem consulatu.</p>
 			</div>
-			<div class="col-sm-6">
-				<a href="tel:<?php echo get_post_meta($post->ID, 'contact-band-button-one', true); ?>" class="btn-sm-o"><i class="fa fa-phone">&nbsp;</i><?php echo get_post_meta($post->ID, 'contact-band-button-one', true); ?></a>
+			<div class="col-sm-4">
+				<a href="tel:<?php echo get_post_meta($post->ID, 'contact-band-button-one-link', true); ?>" class="btn-sm-o white"><i class="fa fa-phone">&nbsp;</i> <?php echo get_post_meta($post->ID, 'contact-band-button-one', true); ?></a>
 			</div>
-			<div class="col-sm-6">
-				<a href="mailto:<?php echo get_post_meta($post->ID, 'contact-band-button-two', true); ?>" class="btn-sm-o"><i class="fa fa-envelope">&nbsp;</i><?php echo get_post_meta($post->ID, 'contact-band-button-two', true); ?></a>
+			<div class="col-sm-4">
+				<a href="<?php echo get_post_meta($post->ID, 'contact-band-button-two-link', true); ?>" class="btn-sm-o"><i class="fa fa-book">&nbsp;</i> <?php echo get_post_meta($post->ID, 'contact-band-button-two', true); ?></a>
 			</div>
 		</div>
 	</div>
