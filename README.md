@@ -2,25 +2,25 @@
 This repository gives everyone the ability to deploy a landing page for marketing campaigns. Essentially reducing development time.
 
 ##Feature Timeline
-###Sprint One *(July 7th 2015)*
+#####Sprint One *(July 7th 2015)*
 - All custom theme options 
 - Top phone number
 - Ability to change icons
 - Ability to add/remove block elements
 
-###Sprint Two *(July 14th 2015)*
+#####Sprint Two *(July 14th 2015)*
 - Ability to change images 
 - Ability to change colors
 - Integration with Pass.js
 - Code additional design elements
 
-###Sprint Three *(July 21st 2015)*
+#####Sprint Three *(July 21st 2015)*
 - Form expression copy 
 - Compose thorough documentation
 - Customizable main-banner
 - Variations of main-banner
 
-###Sprint Four *(July 28th 2015)*
+#####Sprint Four *(July 28th 2015)*
 - User Testing
 - Iterate
 
