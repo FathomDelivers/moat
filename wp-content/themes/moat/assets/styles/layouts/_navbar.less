@@ -4,6 +4,18 @@
 .navbar {
 	border: none;
 }
+.navbar-nav {
+	float: right;
+	li.phone {
+		.heading-font-size(2.2);
+		float: right;
+		a {
+			font-weight: 600;
+			color:@brand-secondary;
+			padding-bottom: 0 !important;
+		}
+	}
+}
 .navbar-brand {
 	.center;
 	float: none;
@@ -21,4 +33,7 @@
 	.navbar-toggle {
   		margin-top: -60px;
   	}
+  	.navbar-nav {
+		float: left;
+	}
 }
