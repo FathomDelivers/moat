@@ -1,14 +1,31 @@
+<?php
+
+// Should information area be displayed?
+if ( get_field('information_area_on') ) { $informationAreaOn = get_field('information_area_on'); } 
+else { $informationAreaOn = '<h2>Please add content to your Information Area</h2>'; }
+
+// Content
+if ( get_field('information_area') ) { $informationAreaContent = get_field('information_area'); 
+$value = get_field( "text_field" );}
+else { $informationAreaContent = '<h2>Please add content to your Information Area</h2>'; }
+
+?>
+
+<?php if ($informationAreaOn == 'On') {
+	// Set fields as variables
+	$information_area_column_1 = get_field( "information_area_column_1" );
+	$information_area_column_2 = get_field( "information_area_column_2" );
+    ?>
 <div class="information-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-md-offset-2">
-				<h3>One of our features.</h3>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.</p>
+				<?php echo $information_area_column_1; ?>
 			</div>
 			<div class="col-md-4">
-				<h3>Another feature.</h3>
-				<p>Congue vocent definitionem per ut, ea mea quas dicam. No saperet euripidis has. In omnium neglegentur complectitur mel.</p>
+				<?php echo $information_area_column_2; ?>
 			</div>
 		</div>
 	</div>
 </div>
+<?php } else { /* Nothing to show here.. */ } ?>
