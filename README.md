@@ -1,15 +1,6 @@
 #Module Oriented Active Theme
 This repository gives everyone the ability to deploy a landing page for marketing campaigns. Essentially reducing development time.
 
-##Table of Contents
-1. Installation
-2. Adding a logo
-3.
-4.
-
-
-###Installation
-
 ###Adding a logo
 Once logged into the Wordpress dashboard hover over **Appearence** located on the left sidebar. Then click on **Customize**. Click on **Logo** menu item dropdown. Then click on **Change Image**, 
 
