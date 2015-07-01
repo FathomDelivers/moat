@@ -11,7 +11,7 @@
   <?php get_template_part('templates/contact-area', 'page'); ?>
   <?php get_template_part('templates/information-area', 'page'); ?>
   <?php get_template_part('templates/feature-area', 'page'); ?>
-  <?php get_template_part('templates/testimonial', 'page'); ?>
+  <?php get_template_part('templates/testimonial-area', 'page'); ?>
   <?php get_template_part('templates/block-area', 'page'); ?>
 <?php endwhile; ?>
 <?php
