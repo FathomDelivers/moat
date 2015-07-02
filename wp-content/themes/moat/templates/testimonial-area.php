@@ -21,7 +21,7 @@ else { $testimonialAreaContent = '<h2>Please add a header</h2><br /><p>Please ad
 	$testimonial_area_image_3    = get_field( "testimonial_area_image_3" );
 ?>
 <div class="container-fluid testimonial-area">
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
 		<div class="col-md-4 col-md-offset-4">
 		  <div class="carousel-inner">
 		    <div class="item active">
