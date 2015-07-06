@@ -10,15 +10,15 @@ This code is build using [WordPress](http://wordpress.org) along with an instanc
 
 ##Feature Timeline
 ####Sprint One *(July 7th 2015)*
-- All custom theme options *Complete*
-- Top phone number *Complete*
-- Ability to change icons *Complete*
-- Ability to add/remove block elements *Complete*
+- All custom theme options *(Complete)*
+- Top phone number *(Complete)*
+- Ability to change icons *(Complete)*
+- Ability to add/remove block elements *(Complete)*
 
 ####Sprint Two *(July 14th 2015)*
 - Ability to change images 
 - Ability to change colors
-- Integration with Pass.js
+- Integration with Pass.js *(Complete)*
 - Code additional design elements
 
 ####Sprint Three *(July 21st 2015)*
