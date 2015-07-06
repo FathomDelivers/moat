@@ -18,13 +18,11 @@ else { $informationAreaContent = '<h2>Please add content to your Information Are
     ?>
 <div class="information-area">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-md-offset-2">
-				<?php echo $information_area_column_1; ?>
-			</div>
-			<div class="col-md-4">
-				<?php echo $information_area_column_2; ?>
-			</div>
+		<div class="col-md-4 col-md-offset-2">
+			<?php echo $information_area_column_1; ?>
+		</div>
+		<div class="col-md-4">
+			<?php echo $information_area_column_2; ?>
 		</div>
 	</div>
 </div>
