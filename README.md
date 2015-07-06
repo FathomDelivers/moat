@@ -10,10 +10,10 @@ This code is build using [WordPress](http://wordpress.org) along with an instanc
 
 ##Feature Timeline
 ####Sprint One *(July 7th 2015)*
-- All custom theme options 
-- Top phone number
-- Ability to change icons
-- Ability to add/remove block elements
+- All custom theme options *Complete*
+- Top phone number *Complete*
+- Ability to change icons *Complete*
+- Ability to add/remove block elements *Complete*
 
 ####Sprint Two *(July 14th 2015)*
 - Ability to change images 
