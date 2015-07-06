@@ -9,9 +9,7 @@
     <!-- source lead tracking -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script> var jq1110 = jQuery.noConflict();</script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/source/jquery.cookie.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/source/source.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/source/source_two.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/pass/pass.js"></script>
     <!-- garlic.js -->
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/garlic/garlic-standalone.min.js"></script>
     <!-- smooth-scroll.js -->

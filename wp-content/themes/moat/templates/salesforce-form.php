@@ -16,6 +16,10 @@
 	<label for="email">Email</label>
 	<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" />
 
+	<input class="form-control" id="utm_source" maxlength="80" name="utm_source" size="20" type="text" />
+	<input class="form-control" id="utm_medium" maxlength="80" name="utm_medium" size="20" type="text" />
+	<input class="form-control" id="utm_campaign" maxlength="80" name="utm_campaign" size="20" type="text" />
+
 	<label for="target_semester">Semester</label>
 	<select class="form-control" id="00No000000911sh" name="00No000000911sh" title="Target Semester">
 		<option value="">Choose a Semester</option>
