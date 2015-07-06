@@ -26,12 +26,12 @@ else { $announcementAreaContent = '<h2>Please add content to your announcement A
       <div class="item">
       <?php echo $announcement_area_slide_2; ?>
       </div>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#announcement-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#announcement-carousel" data-slide-to="1" ></li>
+      </ol>
     </div>
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#announcement-carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#announcement-carousel" data-slide-to="1" ></li>
-    </ol>
   </div>
 </div> 
 <?php } else { /* Nothing to show here.. */ } ?>

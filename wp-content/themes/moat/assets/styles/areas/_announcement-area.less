@@ -1,13 +1,14 @@
 .announcement-area {
 	text-align: center;
 	background:@grey-light;
-	min-height: 92px;
-	height: auto;
-	padding-top: 24px;
+  	min-height: 96px;
+  	padding-top: 12px;
 	.carousel-inner {
 		.item {
 			a {
 				.tdn;
+				z-index: 100;
+				padding:24px 0 12px 0;
 				p {
 					strong {
 						margin-right: 0.5em;
@@ -22,18 +23,20 @@
 		}
 	}
 	ol.carousel-indicators {
+		z-index: 1;
 		display: block;
 		position: relative;
+		border:0px !important;
+		height: 24px;
+		li{
+			margin-top:24px;
+			background-color: @brand-primary;
 			border:0px !important;
-			li{
-				margin-top:24px;
-				background-color: @brand-primary;
-				border:0px !important;
-			}
-			li.active {
-				background-color: @brand-primary;
-				border:0px !important;
-				opacity: 0.7;
-			}
+		}
+		li.active {
+			background-color: @brand-primary;
+			border:0px !important;
+			opacity: 0.7;
+		}
 	}
 }
