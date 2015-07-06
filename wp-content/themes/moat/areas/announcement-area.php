@@ -1,17 +1,37 @@
+<?php
+
+// Should announcement area be displayed?
+if ( get_field('announcement_area_on') ) { $announcementAreaOn = get_field('announcement_area_on'); } 
+else { $announcementAreaOn = '<h2>Please add content to your announcement Area</h2>'; }
+
+// Content
+if ( get_field('announcement_area') ) { $announcementAreaContent = get_field('announcement_area'); 
+$value = get_field( "text_field" );}
+else { $announcementAreaContent = '<h2>Please add content to your announcement Area</h2>'; }
+
+?>
+
+<?php if ($announcementAreaOn == 'On') {
+  // Set fields as variables
+  $announcement_area_slide_1 = get_field( "announcement_area_slide_1" );
+  $announcement_area_slide_2 = get_field( "announcement_area_slide_2" );
+    ?>
+
 <div class="announcement-area">
-<div id="announcement-carousel" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner col-xs-12">
-    <div class="item active">
-      <a href="#"><p><strong>Learn about our courses:</strong> View the gated content <span>→</span></p></a>
+  <div id="announcement-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner col-xs-12">
+      <div class="item active">
+      <?php echo $announcement_area_slide_1; ?>
+      </div>
+      <div class="item">
+      <?php echo $announcement_area_slide_2; ?>
+      </div>
     </div>
-    <div class="item">
-    	<a href="#"><p><strong>New to applying?</strong> Get started by completing our registration <span>→</span></p></a>
-    </div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#announcement-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#announcement-carousel" data-slide-to="1" ></li>
+    </ol>
   </div>
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#announcement-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#announcement-carousel" data-slide-to="1" ></li>
-  </ol>
-</div>
-</div>
+</div> 
+<?php } else { /* Nothing to show here.. */ } ?>
