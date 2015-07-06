@@ -41,10 +41,10 @@ else { $testimonialAreaContent = '<h2>Please add a header</h2><br /><p>Please ad
 		    </div>
 		  </div>
 		</div>
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<a class="left carousel-control" href="#testimonial-carousel" role="button" data-slide="prev">
 		  <i class="fa fa-angle-left"></i>
 		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<a class="right carousel-control" href="#testimonial-carousel" role="button" data-slide="next">
 		  <i class="fa fa-angle-right"></i>
 		</a>
 	</div>
