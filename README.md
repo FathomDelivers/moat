@@ -12,17 +12,17 @@ This code is build using [WordPress](http://wordpress.org) along with an instanc
 - [x] Ability to add/remove block elements
 
 ####Sprint Two *(July 14th 2015)*
-- [] Ability to change images 
-- [] Ability to change colors
+- [ ] Ability to change images 
+- [ ] Ability to change colors
 - [x] Integration with Pass.js *(Complete)*
-- [] Code additional design elements
+- [ ] Code additional design elements
 
 ####Sprint Three *(July 21st 2015)*
-- [] Form expression copy 
-- [] Compose thorough documentation
-- [] Customizable main-banner
-- [] Variations of main-banner
+- [ ] Form expression copy 
+- [ ] Compose thorough documentation
+- [ ] Customizable main-banner
+- [ ] Variations of main-banner
 
 ####Sprint Four *(July 28th 2015)*
-- [] User Testing
-- [] Iterate
+- [ ] User Testing
+- [ ] Iterate
