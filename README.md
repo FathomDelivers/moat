@@ -1,8 +1,19 @@
 #Module Oriented Active Theme
-This repository gives everyone the ability to deploy a landing page for marketing campaigns. Essentially reducing development time.
+This repository grants the ability to deploy site page for marketing campaigns. Reducing development time.
 
 ##What is this theme built on?
 This code is build using [WordPress](http://wordpress.org) along with an instance of [Sage](https://github.com/roots/sage). Styles compile with [Sass](http://sass-lang.com/) using [Gulp](http://gulpjs.com/). The form holds values with [Garlic](http://garlicjs.org/).
+
+##Instructions 
+###Adding a logo
+Once logged into the Wordpress dashboard hover over **Appearence** located on the left sidebar. Then click on **Customize**. Click on **Logo** menu item dropdown. Then click on **Change Image**. You can upload an image of your choice from there. For best results images files should be less than 104px in width by 91px in height.
+
+###Adding a page to the menu bar
+Once logged into the Wordpress dashboard hover over **Pages** located on the left sidebar. Then click on **Add New**. Give the page a title by completing the field below **Add New Page**. Then look to the right side under the **Page Attributes** section to select a template. Select your theme options, click **Publish** and you are all set.
+
+###Selecting theme options
+At the time of writing there is a total of 7 block areas. Block areas are horizontal sections of content. Each of these can be turned on and off within the Wordpress Dashboard. Simply select the *Preview Template* and the list of  block areas options will be revealed. 
+ 
 
 ##Feature Timeline
 ####Sprint One *(July 7th 2015)*
