@@ -1,7 +1,7 @@
 <?php
 
 // Should feature area be displayed?
-if ( get_field('feature_area_on') ) { $featureAreaOn = get_field('feature_area_on'); } 
+if ( get_field('feature_area_power') ) { $featureAreaOn = get_field('feature_area_power'); } 
 else { $featureAreaOn = '<h2>Please add a header</h2><br /><p>Please add some paragraph content</p>'; }
 
 // Content

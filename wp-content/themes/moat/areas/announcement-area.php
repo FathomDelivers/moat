@@ -1,7 +1,7 @@
 <?php
 
 // Should announcement area be displayed?
-if ( get_field('announcement_area_on') ) { $announcementAreaOn = get_field('announcement_area_on'); } 
+if ( get_field('announcement_area_power') ) { $announcementAreaOn = get_field('announcement_area_power'); } 
 else { $announcementAreaOn = '<h2>Please add content to your announcement Area</h2>'; }
 
 // Content

@@ -1,7 +1,7 @@
 <?php
 
 // Should icon area be displayed?
-if ( get_field('icon_area_on') ) { $iconAreaOn = get_field('icon_area_on'); } 
+if ( get_field('icon_area_power') ) { $iconAreaOn = get_field('icon_area_power'); } 
 else { $iconAreaOn = '<h2>Please add a header</h2><br /><p>Please add some paragraph content</p>'; }
 
 // Content

@@ -1,7 +1,7 @@
 <?php
 
 // Should block area be displayed?
-if ( get_field('block_area_on') ) { $blockAreaOn = get_field('block_area_on'); } 
+if ( get_field('block_area_power') ) { $blockAreaOn = get_field('block_area_power'); } 
 else { $blockAreaOn = '<h2>Please add a header</h2><br /><p>Please add some paragraph content</p>'; }
 
 // Content

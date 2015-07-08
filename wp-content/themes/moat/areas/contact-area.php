@@ -1,7 +1,7 @@
 <?php
 
 // Should contact area be displayed?
-if ( get_field('contact_area_on') ) { $contactAreaOn = get_field('contact_area_on'); } 
+if ( get_field('contact_area_power') ) { $contactAreaOn = get_field('contact_area_power'); } 
 else { $contactAreaOn = '<h2>Please add a header</h2><br /><p>Please add some paragraph content</p>'; }
 
 // Content

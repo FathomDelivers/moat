@@ -1,7 +1,7 @@
 <?php
 
 // Should testimonial area be displayed?
-if ( get_field('testimonial_area_on') ) { $testimonialAreaOn = get_field('testimonial_area_on'); } 
+if ( get_field('testimonial_area_power') ) { $testimonialAreaOn = get_field('testimonial_area_power'); } 
 else { $testimonialAreaOn = '<h2>Please add a header</h2><br /><p>Please add some paragraph content</p>'; }
 
 // Content

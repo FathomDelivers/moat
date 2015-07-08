@@ -1,7 +1,7 @@
 <?php
 
 // Should information area be displayed?
-if ( get_field('information_area_on') ) { $informationAreaOn = get_field('information_area_on'); } 
+if ( get_field('information_area_power') ) { $informationAreaOn = get_field('information_area_power'); } 
 else { $informationAreaOn = '<h2>Please add content to your Information Area</h2>'; }
 
 // Content
