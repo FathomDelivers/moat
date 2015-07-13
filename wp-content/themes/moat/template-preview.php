@@ -13,7 +13,7 @@
   <?php get_template_part('areas/information-area', 'page'); ?>
   <?php get_template_part('areas/feature-area', 'page'); ?>
   <?php get_template_part('areas/testimonial-area', 'page'); ?>
-  <?php get_template_part('areas/image-area', 'page'); ?>
+  <?php get_template_part('areas/photo-area', 'page'); ?>
   <?php get_template_part('areas/block-area', 'page'); ?>
 <?php endwhile; ?>
 <?php
