@@ -23,10 +23,10 @@ At the time of writing there is a total of 7 block areas. Block areas are horizo
 - [x] Ability to add/remove block elements
 
 ####Sprint Two *(July 14th 2015)*
-- [ ] Ability to change images 
+- [x] Ability to change images 
 - [ ] Ability to change colors
 - [x] Integration with Pass.js *(Complete)*
-- [ ] Code additional design elements
+- [x] Code additional design elements
 
 ####Sprint Three *(July 21st 2015)*
 - [ ] Form expression copy 
