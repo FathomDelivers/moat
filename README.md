@@ -37,3 +37,7 @@ At the time of writing there is a total of 7 block areas. Block areas are horizo
 ####Sprint Four *(July 28th 2015)*
 - [ ] User Testing
 - [ ] Iterate
+
+####Feature Requests
+- [ ] Alt tags
+- [ ] Visual Website Optimizer for A/B Testing
